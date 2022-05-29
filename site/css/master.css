@@ -1,1 +1,242 @@
-/* CSS CODE HERE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("../images/main-bg.png");
+  margin: auto;
+  max-width: 1200px;
+  /* ^ remove this to go full screen but the picture will be distorted. */
+  font-family: "Open Sans", sans-serif;
+
+  padding-top: 25px;
+}
+.upper-div {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+
+.between {
+  justify-content: space-between;
+}
+#header-div {
+  padding-bottom: 25px;
+}
+.text-right {
+  text-align: right;
+}
+.text-blue {
+  color: #156497;
+}
+.text-grey {
+  color: #666666;
+}
+.text-white {
+  color: #ffffff;
+}
+.font-bold {
+  font-weight: 700;
+}
+.font-medium {
+  font-weight: 500;
+}
+.font-semibold {
+  font-weight: 600;
+}
+.text-11px {
+  font-size: 11px;
+}
+.text-12px {
+  font-size: 12px;
+}
+.text-18px {
+  font-size: 18px;
+}
+.text-20px {
+  font-size: 12px;
+}
+nav {
+  background-color: #156497;
+}
+a {
+  text-decoration: none;
+}
+.sitemap {
+  list-style-type: none;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 16px;
+}
+.sitemap:hover {
+  background-color: #0f4b71;
+}
+.active {
+  background-color: #0f4b71;
+}
+.banner {
+  background-image: url("../images/new-banner.png");
+  background-position: left top, left;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-size: 100% 260px;
+  height: 260px;
+  margin-bottom: 30px;
+}
+.banner-text {
+  background-image: url("../images/black-banner-text.png");
+  color: white;
+  padding-left: 50px;
+  padding-top: 40px;
+  padding-bottom: 25px;
+  height: 260px;
+  background-repeat: no-repeat;
+  background-size: 50% 260px;
+  display: flex;
+  flex-direction: column;
+}
+.banner-para {
+  width: 320px;
+  font-weight: 400;
+  font-size: 13px;
+  padding-bottom: 40px;
+}
+.button {
+  border: 0;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  width: auto;
+  background-color: #156497;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+.button:hover {
+  background-color: #0f4b71;
+}
+.banner-h2 {
+  font-weight: 700;
+  font-size: 30px;
+  color: #156497;
+  padding-bottom: 20px;
+}
+.main-text {
+  flex-direction: column;
+  row-gap: 20px;
+  font-size: 13px;
+  font-weight: 400;
+}
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #156497;
+}
+blockquote {
+  border: solid #666666;
+  border-top-width: 0;
+  border-bottom-width: 0;
+  border-right-width: 0;
+  border-left-width: 5px;
+  background-color: #e9e9e9;
+  font-style: italic;
+  font-size: 13px;
+  margin: 15px;
+  padding: 20px;
+}
+blockquote > p {
+  text-align: end;
+  font-size: 13px;
+  font-weight: 600;
+}
+h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.text-link {
+  color: #156497;
+  text-decoration: underline;
+}
+.ul-secondary-header {
+  padding-left: 20px;
+  list-style-type: none;
+}
+.form-div {
+  margin-left: 20px;
+  padding: 20px;
+  width: 350px;
+  height: 440px;
+  background-color: #dddddd;
+}
+input {
+  width: 310px;
+  height: 35px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+.input-comment {
+  text-align: start;
+  height: 70px;
+  width: 310px;
+}
+.form-heading {
+  font-size: 22px;
+  font-weight: 700;
+}
+.form-div p {
+  padding-top: 15px;
+  font-size: 13px;
+  padding-bottom: 20px;
+}
+footer {
+  color: white;
+  margin-top: 50px;
+}
+.footer-start {
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #156497;
+  height: 115px;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-end {
+  list-style-type: none;
+  background-color: #0f4b71;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.footer-end > li > a {
+  color: white;
+  font-size: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  list-style-type: none;
+}
+hr {
+  height: 15px;
+  align-self: center;
+}
+
+.footer-heading {
+  font-weight: 700;
+  font-size: 12px;
+}
+.pl {
+  padding-left: 50px;
+}
+.pt {
+  padding-top: 10px;
+}
+.white {
+  color: white !important;
+}

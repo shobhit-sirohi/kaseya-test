@@ -1,18 +1,250 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
-    <title>HTML Test</title>
+  <head>
+    <meta
+      http-equiv="Content-Type"
+      content="text/html; charset=utf-8"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Company</title>
     <meta name="description" content="WE'LL DO IT LIVE!" />
-
-    <link href="css/master.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body>
-
-<!-- CODE HERE -->
-
-</body>
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link
+      href="css/master.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <div class="upper-div">
+      <!-- header div -->
+      <div class="flex between" id="header-div">
+        <div>
+          <a href="#">
+            <img src="images/logo.png" alt="Company Logo" />
+          </a>
+        </div>
+        <div class="font-semibold">
+          <p class="text-right text-18px">
+            CALL TODAY
+            <span class="text-blue">231-456-7890</span>
+          </p>
+          <p class="text-right text-grey text-12px">
+            Serving Scottsdale, AZ
+          </p>
+        </div>
+      </div>
+      <!-- navbar -->
+      <nav>
+        <ul class="flex">
+          <li class="sitemap hover-blue">
+            <a class="text-white" href="">HOME</a>
+          </li>
+          <li class="sitemap active">
+            <a class="text-white" href="">ABOUT</a>
+          </li>
+          <li class="sitemap">
+            <a class="text-white" href="">SERVICES</a>
+          </li>
+          <li class="sitemap">
+            <a class="text-white" href="">REVIEWS</a>
+          </li>
+          <li class="sitemap">
+            <a class="text-white" href="">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- banner -->
+      <div class="banner">
+        <div class="banner-text">
+          <h2 class="banner-h2">SERVICE NAME</h2>
+          <p class="banner-para">
+            Etiam metus eros, viverra at accumsan finibus,
+            molestie ac turpis. Suspendisse pretium ante vel
+            viverra volutpat.
+          </p>
+          <div class="">
+            <a class="button" href="">LEARN MORE</a>
+          </div>
+        </div>
+      </div>
+      <!-- main div-->
+      <div class="flex">
+        <!-- main text -->
+        <div class="flex main-text">
+          <h1>HEADER</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Sed quis commodo metus. Donec
+            ac ipsum at arcu vehicula sodales. Nunc dapibus
+            pellentesque interdum. Phasellus
+            <span class="text-link"
+              ><a href="">accumsan sed massa</a></span
+            >
+            eget molestie. Nam eu augue pharetra, maximus
+            augue in, pellentesque orci. Vivamus porttitor
+            euismod magna in porta. Etiam metus eros,
+            viverra at accumsan finibus, molestie ac turpis.
+            Suspendisse pretium ante vel viverra volutpat.
+            Vivamus a ultricies mauris, eu laoreet ligula.
+            sapien.
+          </p>
+          <blockquote>
+            Praesent interdum consectetur felis, facilisis
+            Praesent interdum consectetur felis, facilisis
+            gravida tellus ornare eget.
+            <p>-John Doe</p>
+          </blockquote>
+          <h2>SECONDARY HEADER</h2>
+          <p>
+            Etiam condimentum nisl in nisl mattis fringilla.
+            Cras molestie nisi mattis fermentum vehicula.
+            Curabitur ac pharetra magna. Nunc in mauris
+            vitae arcu sagittis ullamcorper. Nunc turpis
+            nisi, ullamcorper molestie lobortis eu, sodales
+            eget nunc. Praesent interdum consectetur felis,
+            facilisis gravida tellus ornare eget. Lorem
+            ipsum dolor sit amet, consectetur adipiscing
+            elit. Nulla nulla dui, laoreet non malesuada ut,
+            hendrerit at nunc.
+          </p>
+          <ul class="ul-secondary-header">
+            <li>-List Item 1</li>
+            <li>-List Item 2</li>
+            <li>-List Item 3</li>
+          </ul>
+          <p>
+            Proin viverra et massa at condimentum. Morbi
+            dignissim eros in mollis fermentum. Curabitur ut
+            molestie mauris. Maecenas id turpis id orci
+            consectetur egestas. Pellentesque habitant morbi
+            tristique senectus et netus et malesuada fames
+            ac turpis egestas.
+          </p>
+        </div>
+        <!-- form -->
+        <div class="form-div">
+          <h2 class="text-blue form-heading">
+            REQUEST AN APPOINTMENT
+          </h2>
+          <p>
+            Etiam metus eros, viverra at accumsan finibus,
+            molestie ac turpis. Suspendisse pretium ante vel
+            viverra volutpat.
+          </p>
+          <form
+            action="mailto:someone@example.com"
+            method="post"
+            enctype="text/plain"
+          >
+            <input
+              type="text"
+              name="name"
+              placeholder="NAME"
+            /><br />
+            <input
+              type="text"
+              name="mail"
+              placeholder="EMAIL"
+            /><br />
+            <input
+              type="text"
+              name="phone"
+              placeholder="PHONE"
+            /><br />
+            <input
+              class="input-comment"
+              type="text"
+              name="comment"
+              placeholder="COMMENTS"
+            /><br /><br />
+            <input
+              class="button"
+              type="submit"
+              value="CONTACT US"
+            />
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer>
+      <div class="footer-start flex">
+          <div>
+              <a href=""><img src="images/footer-logo.png" alt=""></a>
+          </div>
+          <div>
+              <div class="footer-heading">
+                  <span>SITEMAP</span>
+                </div>
+              <div class="flex text-11px pt">
+                  <div class="flex flex-col">
+                  <a href="" class="white">HOME</a>
+                  <a href="" class="white">SERVICES</a>
+                  <a href="" class="white">CONTACT</a>
+                </div>
+                  <div class="flex flex-col pl">
+                      <a href="" class="white">ABOUT</a>
+                    <a href="" class="white">REVIEWS</a>
+                </div>
+                  
+              </div>
+          </div>
+          <div>
+            <div class="footer-heading">
+                <span>HOURS</span>
+            </div>
+            <div class="flex text-11px pt">
+                <div class="flex flex-col">
+                    <span>MON-FRI</span>
+                    <span>SATURDAY</span>
+                    <span>SUNDAY</span>
+                </div>
+                <div class="flex flex-col pl">
+                <span>8:00 AM - 5:00 PM</span>
+                <span>BY APPOINTMENT</span>
+                <span>CLOSED</span>
+            </div>
+            </div>
+        </div>
+        <div>
+            <div class="footer-heading">
+                <span>OUR LOCATION</span>
+            </div>
+            <div class="flex flex-col text-11px">
+                <span>12345 N. PAPER ST.</span>
+                <span>SCOTTSDALE,AZ 85257</span>
+                <span>PHONE: 231-456-7890</span>
+            </div>
+        </div>
+      </div>
+      <div>
+          <ul class="footer-end flex">
+        <li><a href="">© 2015 COMPNAY OF SCOTTSDALE</a></li>
+        <hr />
+        <li><a href="">ALL RIGHTS RESERVED.</a></li>
+        <hr />
+        <li><a href="">PRIVACY POLICY</a></li>
+        <hr />
+        <li><a href="">SITEMAP</a></li>
+      </div>
+    </ul>
+    </footer>
+  </body>
 </html>
