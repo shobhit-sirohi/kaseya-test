@@ -1,0 +1,11 @@
+Coding Instructions:
+
+
+
+1. Use the psd to code the layout in  HTML/CSS using web standards.
+
+2. Utilize images in the images folder for background, banners and logo.
+
+3. Pulls colors, fonts and positioning from the psd.
+
+4. Do not worry about making the form functional or any other javascript.
